@@ -1,0 +1,447 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #f0ecec;
+}
+.nav {
+  width: 100%;
+  height: 45px;
+  background: #28292b;
+  position: relative;
+}
+.nav .left {
+  float: left;
+  margin: 12px 0 0 20px;
+  width: 20px;
+  height: 20px;
+  background: #dddddd;
+  font-size: 24px!important;
+}
+.nav .right {
+  font-size: 14px;
+  color: #a6a7a7;
+  position: absolute;
+  right: 32px;
+  top: 14px;
+}
+.nav .right1 {
+  font-size: 14px;
+  color: #a6a7a7;
+  position: absolute;
+  top: 14px;
+  right: 78px;
+}
+.nav div {
+  position: absolute;
+  width: 1200px;
+  margin-left: 244px;
+}
+.nav div ul {
+  height: 45px;
+  list-style: none;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  line-height: 28px;
+  font-size: 18px;
+}
+.nav div ul li {
+  height: 56px;
+  margin-right: 50px;
+  color: hsla(0, 0%, 100%, 0.7);
+  font-size: 12px;
+  line-height: 56px;
+  cursor: pointer;
+}
+.nav div ul .frist {
+  color: #e5e5e5;
+  font-weight: bold;
+}
+header {
+  width: 100%;
+  height: 75px;
+  background: #fff;
+}
+header .box {
+  width: 1250px;
+  height: 75px;
+  margin-left: 140px;
+  position: relative;
+}
+header .box .listshow ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+header .box .listshow ul li {
+  height: 75px;
+  line-height: 75px;
+  float: left;
+  cursor: pointer;
+  color: #666;
+  font-size: 14px;
+  padding: 0 16px;
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+header .box .listshow ul li:hover {
+  color: #5079d9;
+}
+header .box .listshow .frist {
+  color: #666;
+  font-weight: 700;
+  font-weight: bold;
+}
+header .box .seek {
+  width: 330px;
+  height: 36px;
+  position: absolute;
+  right: 20px;
+  top: 16px;
+  border-radius: 18px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+header .box .seek span {
+  font-size: 26px!important;
+  float: left;
+  margin: 4px 0 0 4px;
+}
+header .box .seek p {
+  float: right;
+  margin-right: 10px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 20px;
+  width: 70px;
+  height: 20px;
+  border-radius: 10px;
+  color: #3965cc;
+  border: 1px solid #93b2f7;
+  background: #e5efff;
+  margin-top: 6px;
+}
+header .hide {
+  width: 100%;
+  height: 268px;
+  position: fixed;
+  top: -268px;
+  left: 0;
+  background: #fff;
+  z-index: 99;
+}
+header .hide .line {
+  width: 100%;
+  height: 1px;
+  background: #ccc;
+}
+header .hide .minbox {
+  width: 1100px;
+  height: 266px;
+  margin: 0 auto;
+  color: #666;
+  font-size: 14px;
+}
+header .hide .minbox ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+header .hide .minbox ul li {
+  width: 275px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+header .hide .minbox ul li h5 {
+  font-size: 12px;
+  line-height: 12px;
+  margin: 20px 0 0 10px;
+}
+header .hide .minbox ul li div {
+  margin-top: 10px;
+}
+header .hide .minbox ul li div p {
+  float: left;
+  width: 40px;
+  height: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  color: rgba(0, 0, 0, 0.8);
+}
+header .hide .minbox ul li div p img {
+  width: 100%;
+  height: 100%;
+}
+header .hide .minbox ul li div span {
+  float: left;
+  width: 100px;
+  height: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-left: 6px;
+}
+header .hide .minbox ul li div span a {
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+}
+.bigbox {
+  max-width: 1220px;
+  min-height: calc(100vh - 320px);
+  margin: 0 auto;
+  color: #666;
+  font-size: 14px;
+  text-rendering: optimizeLegibility;
+}
+.bigbox .banner {
+  max-width: 1220px;
+  min-height: calc(100vh - 320px);
+  margin: 0 auto;
+  position: relative;
+}
+.bigbox .banner ul {
+  list-style: none;
+  margin: 30px 0;
+  width: 1220px;
+  height: 500px;
+}
+.bigbox .banner ul li {
+  width: 1220px;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+.bigbox .banner ul li img {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
+.bigbox .banner ol {
+  width: 50px;
+  height: 20px;
+  position: absolute;
+  bottom: 10px;
+  right: 50%;
+}
+.bigbox .banner ol li {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  border-radius: 100%;
+  background: #000;
+  opacity: 0.2;
+}
+.bigbox .warp {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+.bigbox .warp div {
+  border-right: 1px solid #efefef;
+  align-self: stretch;
+  float: left;
+  height: 200px;
+  width: 304px;
+  cursor: pointer;
+}
+.bigbox .warp div img {
+  width: 100%;
+  height: 100%;
+}
+.bigbox .hot {
+  width: 100%;
+  height: 492px;
+  background: blue;
+  margin: 25px 0 0;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  border-radius: 8px;
+  background: #fff;
+  overflow: hidden;
+  cursor: pointer;
+}
+.bigbox .hot .top {
+  background: #fafafa;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 60px;
+  position: relative;
+}
+.bigbox .hot .top h3 {
+  margin-left: 25px;
+  font-weight: bolder;
+  font-size: 18px;
+  line-height: 60px;
+  color: #666;
+}
+.bigbox .hot .top p {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  position: absolute;
+  top: 16px;
+  right: 90px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid #ccc;
+}
+.bigbox .hot .top .right {
+  right: 30px;
+}
+.bigbox .hot .shop {
+  width: 100%;
+  height: 430px;
+}
+.bigbox .hot .shop div {
+  float: left;
+}
+.bigbox .hot .shop div figure {
+  width: 302px;
+  height: 281px;
+}
+.bigbox .hot .shop div figure img {
+  width: 100%;
+  height: 100%;
+}
+.bigbox .hot .shop div h3 {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 8px;
+  color: #333;
+  text-align: center;
+}
+.bigbox .hot .shop div h5 {
+  text-align: center;
+  font-size: 12px;
+  line-height: 12px;
+  white-space: nowrap;
+  margin-top: 20px;
+}
+.bigbox .hot .shop div ul {
+  width: 100px;
+  height: 26px;
+  margin: 8px 0 18px 120px;
+  list-style: none;
+}
+.bigbox .hot .shop div ul li {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  margin: 10px 0 0 10px;
+  float: left;
+  background: red;
+}
+.bigbox .hot .shop div span {
+  font-size: 18px;
+  color: #D44D44;
+  font-weight: bold;
+  margin-left: 86px;
+}
+.bigbox .hot .shop div .smallSize {
+  font-size: 12px;
+  color: #ccc;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+  margin-left: 10px;
+}
+.bigbox .peijian {
+  width: 100%;
+  height: 600px;
+  background: red;
+}
+footer {
+  height: 340px;
+  width: 100%;
+  color: white;
+}
+footer .list {
+  width: 1220px;
+  height: 166px;
+  padding: 60px 0 55px;
+  border-bottom: 1px solid #e6e6e6;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+footer .list ol {
+  list-style: none;
+  margin-right: 94px;
+}
+footer .list ol li {
+  color: #969696;
+  font-size: 12px;
+  padding: 7px 0;
+  cursor: pointer;
+  transition: all 0.15s ease-out;
+}
+footer .list ol li h3 {
+  color: #646464;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 0 0 20px;
+  font-weight: bold;
+}
+footer .phone {
+  margin-bottom: 80px;
+  margin-left: 470px;
+}
+footer .phone h2 {
+  font-size: 20px;
+  font-weight: 900;
+  cursor: default;
+  color: #5079d9;
+  text-align: right;
+  margin-bottom: 10px;
+}
+footer .phone p {
+  font-size: 12px;
+  line-height: 1;
+  color: #999;
+  cursor: default;
+  text-align: right;
+  line-height: 16px;
+}
+footer .phone span {
+  display: block;
+  width: 132px;
+  height: 30px;
+  cursor: pointer;
+  font-weight: 700;
+  text-align: center;
+  color: #5079d9;
+  border: 1px solid #ccc;
+  line-height: 30px;
+  border-radius: 8px;
+  overflow: hidden;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+footer .buttom {
+  width: 1220px;
+  height: 112px;
+  margin: 0 auto;
+  font-size: 12px;
+  color: #bdbdbd;
+}
+.newpople {
+  width: 180px;
+  height: 230px;
+  cursor: pointer;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+.newpople img {
+  width: 100%;
+  height: 100%;
+}
